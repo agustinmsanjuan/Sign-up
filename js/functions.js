@@ -46,7 +46,7 @@ pw.addEventListener("blur",function(e){
         errorPassword.innerHTML = "La contraseña no puede ser admin";
         pw.style.border = "1px solid red";
     } 
-    if (pw.value == "1234") {
+    else if (pw.value == "1234") {
         errorPassword.innerHTML = "La contraseña no puede ser 1234";
         pw.style.border = "1px solid red";
     }
